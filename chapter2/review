@@ -1,0 +1,59 @@
+1. c程序的基本模块叫做：函数
+   c是一种面向过程的语言，而函数则是最小的组成单元。必须要有的就是main函数。
+
+2. 语法错误：是因为代码的书写不符合c语言语法标准而导致的错误，是无法通过编译的。
+   英语例子：Me speak English good. 显然这句话中的Me是错误的，因为其不符合英语的语法。
+   c语言例子：printf "where are the parenteses?"; 这句话也是错误的，因为不符合c语言的语法。
+
+3. 语义错误：是因为代码所表示的含义和自己所期望的结果存在偏差造成的。
+	thrice_n = 3 + n; 这里就是语义错误，应该是 thrice_n = 3*n;
+
+4. 
+#include studio.h 
+int main{void}
+(
+	int s 
+	s: = 56;
+	printf(There are a weeks in a year.);
+	return 0;
+
+
+第一处：标准头文件错误 stdio.h
+第二处：在头文件的两端应该加上<>
+第三处：函数应该使用小括号而不是大括号来包含参数
+第四处：代码块的开始应该使用大括号，结尾也应该使用大括号。
+第五处：一个c语句应该使用分号;进行结尾
+第六处：赋值语句应该使用等号，而不含有冒号。
+第七处：字符串参数应该使用双引号进行包括。
+
+5.
+	a: Baa Baa Black Sheep.
+	b: Have you any wool?换行
+	c: Begone!
+       	   O creature of lard!
+	d: What?
+	   No/nBonzo?换行
+	e: 2 + 2 = 4 
+6. 
+	c语言的关键字：
+	与数据类型有关的：void, short, int, long, float, double, unsigned, void, enum, struct, typedef, union, sizeof, _Bool, _Complex, _Imaginary
+	与寄存器有关的：  auto, volatile, register, restrict
+	与访问权限有关的：extern, static,inline, const
+	与流程控制有关的：if, else, while, do, for, break, continue, goto, switch, case, default
+	特殊的：	  return
+	-------------------------
+	显然题目中是关键字的是：int, char 
+
+7.
+#include<stdio.h>
+int main(void)
+{
+	printf("There were %d words and %d lines", 3020, 350);
+	
+	return 0;
+}
+
+8.
+	第七行：a=5, b=2
+	第八行：a=5, b=5
+	第九行：a=5, b=5
