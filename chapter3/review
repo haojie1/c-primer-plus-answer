@@ -1,0 +1,90 @@
+1.
+	a. long long类型 最大可表示的数为：922 337 203 685 477 5807(显然是一个足够大的数字)
+	b. float类型和double类型都可以。
+	c. char类型
+	d. unsigned short类型
+2. 
+	int类型不足以容纳当前的数值大小。(多种数据类型的区别：short类型不会比int类型的长，long类型不会比int类型短)
+	32位的数据类型可以表示的数值已经可以达到40亿(无符号)。
+3. 
+	对于32为有符号整数可以使用int32_t, int_least32_t, int_fast32_t。
+	int32_t：获得正好是32位的数据类型
+	int_least32_t：获得至少是32位的数据类型
+	int_fast32_t：获得最快计算速度的类型
+4. 
+	a. char 退格
+	b. int  数值
+	c. double 小数
+	d. int 	16进制常数
+	e. double 常量 科学计数法
+
+5. 
+	
+include<stdio.h>
+main
+(
+	float g; h;
+	float tax, rate;
+
+	g = e21;
+	tax = rate*g;
+)
+
+第一行：#include<stdio.h>
+第二行：int main(void)
+第三行：{
+第四行：g,
+第七行：科学计数法e前面至少有一个数字
+第八行：错误
+第九行：}
+
+6.
+	a. int 		%d
+	b. unsigned int %#x
+	c. char 	%c
+	d. double	%lf
+	e. char		%c
+	f. double	%lf
+	g. long		%ld
+	f. float 	%f
+
+7.
+	a. int		%0d
+	b. long double  %Le
+	c. char 	%c
+	d. long 	%ld
+	e. char 	%c
+	f. float 	%f
+	g. unsigned 	%u
+
+8. 
+	int imate = 2; --> %d
+	long shot = 53456; --> %ld
+	char grade = 'A'; --> %c
+	float log = 2.71828 --> %f	
+
+9.
+	char ch = '\n';
+	char ch = 10;
+	char ch = 012;
+	char ch = 0xA;
+
+10.
+#include<stdio.h>
+int main(void)
+{
+	int cows, legs, integer;
+	printf("How many cow legs did you count?\n");
+	scanf("%d", &legs);
+	cows = legs/4;
+	printf("That implies there are %d cows.\n", cows);
+	
+	return 0;
+}	
+
+
+11.
+	a.换行
+	b.反斜杠
+	c.冒号
+	d.制表符
