@@ -1,0 +1,70 @@
+1. 
+	当输入姓名和姓氏的时候如果中间以空白字符进行隔开，则只显示空白字符之前的姓名。
+	(空白字符包括空格，制表符，换行符)scanf函数以空白字符为输入的最后标志
+2.
+	a. 234.50
+	b. Hi!
+	c. His Hamlet was funny without being vulgar. 换行has 43 characters. 
+	d. Is 1.20e+03 the same as 1201.00?
+3. 
+	在%s之前加上"\""，在%s之后加上"\""
+4. 
+	1- 在define之前应该加上"#"
+	2- name应该定义为char*类型
+	3- 在scanf中应该使用&name
+	4- 在sacnf中应该使用%d, &age
+	5- xp应该先声明再使用
+	6- B应该定义为#define B "booboo"
+	 
+5.
+	printf("The copy of \"%s\" sells for $%2.2f\n", BOOK, cost);
+	printf("That is %2.0f%% of list.\n", percent);
+6.
+	a. %d
+	b. %4x
+	c. %10.3f
+	d. %12.2e
+	e. %-30s
+7.
+	a. %15lu
+	b. %#4x
+	c. %-12.2E
+	d. %+10.3f
+	e. %8.8s
+8.
+	a. %6d
+	b. *o(not familiar)
+	c. %2c
+	d. %+f
+	e. %-7.5s
+
+9.
+	a:	
+		int data;
+		scanf("%d", &data);	
+	b:	
+		float data1, data2;
+		scanf("%e%e", &data1, &data2);
+	(b:	
+		double data1, data2;
+		scanf("%le%le", &data1, &data2);
+	)
+	c:	
+		char name[40];
+		scanf("%s", name);	
+	d:	
+		char words[10];
+		int data;
+		scanf("%s%d", words, &data);
+	e:
+		char words[10];
+		int data;
+		scanf("%s%d", words, &data);
+
+10.
+	空白字符包括：空格，换行，制表符
+	scanf以空格为分隔符来控制输入
+
+11.
+	不会，不发进行预编译处理
+
