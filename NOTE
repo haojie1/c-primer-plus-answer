@@ -1,2 +1,3 @@
 1. limits.h头文件中包含了关于此编译器实现的c数据类型的定义。
 2. 使用转义字符的时候，可以使用'\'，'\0xxx'(0可以省略)，'\0xxxx'
+3. the difference of using sizeof array when main and  using sizeof array when function
