@@ -2,3 +2,7 @@
 2. 使用转义字符的时候，可以使用'\'，'\0xxx'(0可以省略)，'\0xxxx'
 3. the difference of using sizeof array when main and  using sizeof array when function
 4. you can legally access the address of the array's last address + 1.
+5. the difference of const point and point const
+	const int * pt;	//this is a pointer --> a const value, but the value of pt can change
+	int * const pt; //this is a const pointer --> a variable, but the value of pt cannot change
+	const int * const pt;//this is a const pointer --> a const value, you cannot change either the value of pt nor the value of pt --> value
