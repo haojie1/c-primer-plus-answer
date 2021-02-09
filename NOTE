@@ -6,3 +6,6 @@
 	const int * pt;	//this is a pointer --> a const value, but the value of pt can change
 	int * const pt; //this is a const pointer --> a variable, but the value of pt cannot change
 	const int * const pt;//this is a const pointer --> a const value, you cannot change either the value of pt nor the value of pt --> value
+6. the difference of "int * pz[2]" and "int (*pz) [2]"
+	int * pz[2] --> int * is the array's type
+	int (*pz) [2] --> pz is a pointer to two dimensions's array 
