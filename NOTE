@@ -9,3 +9,5 @@
 6. the difference of "int * pz[2]" and "int (*pz) [2]"
 	int * pz[2] --> int * is the array's type
 	int (*pz) [2] --> pz is a pointer to two dimensions's array 
+7. fgets(char* , int MAX, FILE* )
+	the difference between gets is that fgets can read the '\n' and add '\0' to the end, but the gets will replace the '\n' with '\0'
