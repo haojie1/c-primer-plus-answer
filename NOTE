@@ -11,3 +11,7 @@
 	int (*pz) [2] --> pz is a pointer to two dimensions's array 
 7. fgets(char* , int MAX, FILE* )
 	the difference between gets is that fgets can read the '\n' and add '\0' to the end, but the gets will replace the '\n' with '\0'
+8. fgets and fputs
+   gets and puts
+   getchar and putchar
+   getc and putc
