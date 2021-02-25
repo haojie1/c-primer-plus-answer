@@ -9,7 +9,8 @@ void my_gets(char *str, int n, FILE *stream)
 	
 	fgets(temp_str, n, stream);
 	strncpy(str, temp_str, strlen(temp_str)-1);
-	*(str+strlen(str)) = '\0';
+	//FIX THE BUG WHEN STR'S LENGTH = 0
+	*(str+strlen(temp_str) -1) = '\0';
 	
 	free(temp_str);
 }
